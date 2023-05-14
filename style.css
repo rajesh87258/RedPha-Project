@@ -1,0 +1,738 @@
+ .ho:hover{
+    color: rgb(0, 255, 30) !important;
+    transform: scale(1.3) !important;
+    margin-left: 10%  !important;
+} 
+
+.color{
+
+
+    background-color: rgb(0, 187, 255) !important ;
+}
+
+
+
+  /* Navbar section end */
+
+  *{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+  }
+
+
+
+  /* imagination section start */
+  .x{
+    height: 18vh;
+
+    width: 0%;
+    margin-left: 25%;
+    margin-top: 12%;
+    
+  }
+  
+.borderr{
+  border-left: 5px solid rgb(9, 208, 248);
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    height: 19%;
+    margin-top: 5%;
+    padding-left: 1%;
+   
+   
+ }
+  .imaginationpara{
+  
+  
+    font-size: 2rem;
+    color:rgb(0, 255, 30);
+    font-weight: 700;
+
+  }
+  
+  .secondpara{
+ 
+    color:rgb(0, 255, 30);
+    font-weight: bold;
+    font-size: large;
+    
+  }
+  
+  .thirdpara{
+    
+    font-size: medium;
+    color:rgb(0, 255, 30);
+    font-weight: bold;
+  }
+  .imagination{
+    background-image: url(./Images/pexels-mack-kamp-1449455.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: -11rem;
+  }
+  
+
+
+
+
+  /* imagination section end */
+
+
+  /* thinking section start */
+
+  .thinking{
+    height: 100%;
+    width: 100%;
+    padding-top: 6%;
+    background-image: url(./Images/natalie-chaney-zhUzdTgtRP8-unsplash.jpg);
+    background-size: cover;
+    padding-bottom: 12%;
+    font-family: cursive;
+  }
+
+  .thinkingheading{
+    text-align: center;
+   color: rgb(9, 208, 248);
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+  .thinkingpara1{
+    font-size: 1.8em;
+  }
+  .thinkingpara2{
+    font-size: 1.8em;
+    margin-bottom: 3%;
+  }
+  .thinkingspan{
+    font-size: 2rem;
+  }
+  .thinkingbigpara{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+   font-weight: 600;
+   font-size: 1em;
+   
+  }
+  .thinkingbigone{
+  margin-bottom: 3%;
+  color: rgb(9, 208, 248);
+  }
+  .thinkingbigone:hover{
+    transform: scale(1.2);
+    color: rgb(5, 251, 25);
+  }
+  .thinkingbigtwo:hover{
+    transform: scale(1.2);
+    color:rgb(5, 251, 25); 
+  }
+  @media screen and (max-width: 780px) {
+    .thinkingpara1,
+    .thinkingpara2,
+    .thinkingbigpara {
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
+
+    .thinkingbigone:hover{
+      transform: none;
+        color: rgb(5, 251, 25);
+        transform: scale(1.1);
+      }
+      .thinkingbigtwo:hover{
+       margin-top: 3%;
+        transform: scale(1.1);
+        color:rgb(5, 251, 25); 
+      }
+      .thinkingbigpara{
+        width: 70%;
+        margin: auto;
+        font-size: large;
+      }
+      
+  }
+  
+  @media screen and (max-width: 576px) {
+    .thinkingbigpara {
+      width: 90%;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+
+    .thinkingbigone:hover{
+       transform: none;
+        color: rgb(5, 251, 25);
+      }
+      .thinkingbigtwo:hover{
+        transform: none;
+        color:rgb(5, 251, 25); 
+      }
+
+      .thinkingbigone{
+        margin-bottom: 3%;
+        margin-top: 5%;
+        }
+
+
+
+  }
+
+
+  @media screen and (max-width: 576px){
+    .thinkingpara2{
+      padding-bottom: 5%;
+    }
+    .thinkingbigpara{
+        font-size: large;
+    }
+  }
+
+
+
+
+  .thinkingbigtwo{
+    color: rgb(9, 208, 248);
+  }
+
+
+
+
+
+
+  
+
+/* thinking section end */
+
+
+/* startegic section start */
+.strategicsectionparent{
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+    background-image: url(./Images/1217216.jpg);
+}
+
+
+N{
+    font-size: 2.4em;
+   }
+  
+   .B{
+    font-size: 2.4em;
+   }
+   .from{
+    font-size: 1.8rem;
+   }
+   .t{
+    font-size: 2.1em;
+   }
+   .F{
+    font-size: 2.1em;
+   }
+   .O{
+    font-size: 2.1em;
+   }
+   .fa{
+    text-align: center;
+   }
+
+   .strategicheading{
+    padding-top: 2%;
+    text-align: center;
+    color:rgb(5, 251, 25);
+    font-weight: bolder;
+    margin-bottom: 6%;
+   }
+   .startegicparent{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 8%;
+   color:rgb(5, 251, 25);
+   flex-wrap: wrap;
+   }
+   .startegicone{
+    width: 22%;
+    min-width: 200px;
+   
+   }
+   .strategicarrow{
+    text-align: left;
+    margin-bottom: 10%;
+    margin-left: 10%;
+   }
+   .strategicservices{
+    margin-bottom: 10%;
+    text-align: left;
+   }
+   .strategicpara:hover,.strategicservices:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    color: rgb(9, 208, 248);
+   }
+
+.greaterthan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+padding-bottom: 2%;
+color: grey;
+}
+.strategicpara{
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 767px){
+
+    .strategicarrow{
+        margin-top: 5%;
+    }
+.strategicpara{
+    margin-bottom: 10%;
+}
+}
+
+
+@media screen and (max-width: 576px){
+    .strategicarrow{
+        margin-top: 5%;
+        margin-bottom: 4% !important;
+        margin-left:1px !important;
+
+       
+    }    
+    .strategicpara{
+        margin-bottom: 5%;
+    }
+    .startegicone{
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+    .strategicservices{
+        margin-bottom: 4% !important ;
+    }
+
+}
+
+
+/* strategic section end */
+
+
+
+/* productive section start */
+
+
+.productivetalentmangemet{
+    height: 100%;
+    width: 100%;
+    font-family:cursive;
+    background-image: url(./Images/pexels-saeid-anvar-827215.jpg);
+}
+.productivetalentheading{
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bolder;
+    color: rgb(9, 208, 248);
+    font-size: 1em;
+}
+
+.productivetalentpara{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(5, 251, 25);
+}
+.productivetalentpara:hover{
+    transform: scale(1.09);
+    font-weight: bold;
+    color: aqua;
+}
+
+.productivemanagementbutton{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+justify-content: space-between;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.pda{
+    display: flex;
+    width:40% ;
+    background-color: aqua;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    font-family: sans-serif;
+}
+.pda:hover{
+    transform: scale(1.1);
+    background-color: rgb(5, 251, 25);
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 707px){
+    .pda{
+      width: 50%;
+      margin: auto;
+      margin-bottom: 2%;
+   
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+   .productivetalentpara{
+    width: 80%;
+    margin: auto;
+   }
+    .pda{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 4px;
+    }
+}
+
+.allpara{
+    color: whitesmoke;
+}
+
+/* news section start */
+
+
+
+.newssection{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Images/WhatsApp\ Image\ 2023-05-12\ at\ 18.40.54.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.newsheading{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+ padding-top: 2%;
+ padding-bottom: 2%;
+}
+
+.allparent{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   
+}
+.newssectionone{
+    width: 30%;
+    background-color:#09D0FA;
+    min-width: 220px;
+    margin-bottom: 15px;
+   
+}
+
+.newssectionone:hover{
+    transform: scale(1.05);
+}
+.newsimage{
+    width: 100%;
+}
+.newsimage img{
+    width: 100%;
+}
+.heading1{
+    text-align: right;
+    padding-right:2% ;
+    color: rgb(253, 253, 254);
+    font-weight: bold;
+}
+.allpara{
+    text-align: right;
+    padding-right:2% ;
+    margin-bottom: 5%;
+}
+
+.allbutton{
+    width: 70%;
+margin: auto;
+margin-top: 5%;
+display: flex;
+padding-bottom: 2%;
+flex-wrap: wrap;
+}
+
+.newsbutton1{
+    display: flex;
+    width: 40%;
+    background-color: #09D0FA;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    height: 2.3rem;
+    margin-bottom: 10px;
+}
+.buttonpara{
+    justify-content: flex-start;
+    width: 90%;
+    padding-left: 2%;
+}
+.buttonarrow{
+    justify-content: flex-end;
+    width: 10%;
+    font-size: large;
+}
+
+
+
+.submit{
+ 
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.submitbtn{
+    background-color: #09D0FA;
+    color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 50px;
+    height: 2rem;
+    min-width: 100px;
+}
+
+.submitbtn:hover{
+    transform: scale(1.1);
+    color: rgb(9, 208, 248);
+    background-color: rgb(5, 251, 25)
+    ;
+}
+.newsbutton1:hover{
+    transform: scale(1.1);
+    color: rgb(9, 208, 248);
+    background-color: rgb(5, 251, 25);
+}
+
+
+@media screen and (max-width: 628px){
+    .newssectionone{
+        margin: auto;
+        margin-bottom: 4%;
+    }
+    .newsbutton1{
+        height: 2.6rem;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+      
+    .newssectionone{
+       width: 90%;
+       margin: auto;
+        padding-bottom: 10px;
+        margin-bottom: 4%;
+    }
+    .submit{
+      
+        margin: auto;
+    }
+    .newsbutton1{
+        margin: auto;
+        margin-bottom: 3%;
+       width: 80%;
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* last section start */
+
+.lastsection{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Images/5068978.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastsectionheading{
+    text-align: center;
+color: white;
+    padding-top: 3%;
+}
+
+
+.seconslastsection{
+    width: 45%;
+    margin: auto;
+    text-align: justify;
+}
+.firstlast{
+    font-size: 2rem;
+}
+.sectiondiv{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single{
+    height: auto;
+    width: 40%;
+    background-color: rgb(0, 187, 255);
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 0px 5rem 0px 0px;
+    border: 2px solid whitesmoke;
+}
+
+
+.singleheading{
+    width: 100%;
+text-align: center;
+font-size: large;
+font-weight: bold;
+}
+.singleparadiv{
+    width: 100;
+    text-align: justify;
+}
+@media screen and (max-width: 590px){
+    .single{
+        margin-left: 55px;
+    } 
+}
+
+@media screen and (max-width: 576px){
+    .single{
+       width: 100%;
+       margin: auto;
+       margin-bottom: 4%;
+    }  
+    .seconslastsection{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.single:hover{
+    transform: scale(1.04);
+    background-color: rgb(0, 187, 255);
+    color: rgb(36, 2, 254);
+}
+
+
+
+
+
+.fotter{
+
+   cursor: pointer;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 5%;
+    font-family: sans-serif;
+}
+
+.COMPANYFOTTER{
+    font-weight: bolder;
+    color: rgb(0, 187, 255);
+    font-size: large;
+    min-width: 100px;
+}
+.companypune{
+    font-weight: bold;
+    min-width: 100px;
+    color:white;
+}
+
+.fotter4 img{
+    height: 80px;
+    width: 120px;
+}
+.COMPANYFOTTER:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.companypune:hover{
+    transform: scale(1.09);
+    color: rgb(5, 251, 25)
+    ;
+}
+
+
+
+
+
+body{
+    background-color: rgb(0, 187, 255)
+    !important ;
+}
+
+
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .firstlast:hover{
+    color:rgb(5, 251, 25);
+
+  }
+.seconslastsection:hover{
+    color:rgb(5, 251, 25);
+
+  }
+
+  /* projctend */
